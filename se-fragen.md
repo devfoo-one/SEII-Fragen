@@ -13,6 +13,12 @@ SE Fragen
 
 > ebenso wie `insert()` und `update()`
 
+#### Verwaltungsmethoden wie `get()` und `set()` sind im *Klassendiagram* eines *Entwurfsmodells* nicht zu modellieren. (WS2010)
+
+**Falsch.**
+
+> ebenso wie `insert()` und `update()`
+
 #### Die *Kann-Kriterien* aus dem Pflichtenheft werden im Entwurfsmodell *nicht länger berücksichtigt*. (SS2014 NK)
 
 **Falsch.**
@@ -32,6 +38,12 @@ SE Fragen
 **Falsch.**
 
 > Es gibt 3 Arten: `JOINED`, `TABLE-PER-CLASS` und `SINGLE-TABLE`
+
+#### Objektorientierte Vererbung lässt sich *auch auf relationale Datenmodelle* abbilden (WS2010)
+
+**Richtig.**
+
+> Es gibt 3 Typen => Single, Table-per-class und joined
 
 #### Ein Web-Server funktioniert nach dem *HTTP-Request-Response-Paradigma*. Das klassische *Model-View-Controller-Konzept* lässt sich hier nicht anwenden. (SS2014 NK)
 
@@ -73,7 +85,9 @@ SE Fragen
 
 **Falsch.**
 
-> Sie können auch Sessionscoped, Sitescoped und an die Lebensdauer der Webanwendung gebunden sein.
+> Sie können auch Sessionscoped, Sitescoped und an die Lebensdauer der Webanwendung gebunden sein. (WS2011)
+>
+> es gibt auch page, application und session (WS2010)
 
 #### Das Entwurfsmuster *Singleton* ist ein *objektbasiertes Erzeugungsmuster*. (WS2011)
 
@@ -81,11 +95,23 @@ SE Fragen
 
 > Es kann dadurch nur eine Instanz eines Objektes geben. `Object.getInstanz();`
 
+#### Das Entwurfsmuster *Singleton* ist ein *klassenbasiertes Erzeugungsmuster*. (WS2010)
+
+**Falsch.**
+
+> ist ein objektbasiertes Erzeugungsmuster
+
 #### Ein *fachlich relevantes, eindeutiges* Attribut wie `kundenNr` oder `artikelId` ist als *Schlüsselattribut* der Datenbanktabelle einer Entitätsklasse *nicht geeignet*. (WS2011)
 
 **Richtig.**
 
 > Das sich die Fachlichkeit ändern kann und die OID nicht mit der Fachlogik verbunden werden soll.
+
+#### Ein *fachlich relevantes, eindeutiges* Attribut wie `kundenNr` oder `artikelId` ist als *Schlüsselattribut* (primary key) der Datenbanktabelle einer Entitätsklasse *besonders geeignet*. (WS2010)
+
+**Falsch.**
+
+> ein generischer Schlüssel ist besser geeignet.
 
 #### Ein *Phase Listener* ermöglicht es, die Berechtigung des Benutzers beim Zugriff auf eine Webseite vom *Web Framework* "JavaServer Faces" überprüfen zu lassen. (WS2011)
 
@@ -102,6 +128,8 @@ SE Fragen
 #### Das *Model-View-Controller-Konzept (MVC)* bezieht sich auf *alle drei Schichten* der im Entwurfsmodell eingesetzten Drei-Schichten-Architektur. (WS2011)
 
 ![](img/ws2011_46.jpg)
+
+#### *Data Binding* bezeichnet die *automatische Wertzuweisung* zwischen Beans-Attributen und UI-Elementen (WS2010)
 
 #### Im ORM vermeidet man es soweit wie möglich, künstliche (numerische) Primärschlüsssel zu vergeben. (WS2009 Probeklausur)
 
