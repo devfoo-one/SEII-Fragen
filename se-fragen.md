@@ -27,7 +27,7 @@ SE Fragen
 
 *Zie hatte das "ob" durchgestrichnen und "wann" druntergeschrieben*
 
-#### Die *Kann-Kriterien* aus dem Pflichtenheft werden im Entwurfsmodell *nicht länger berücksichtigt*, da sie im fertigen Softwareprodukt mit hoher Wahrscheinlichkeit nicht realisiert sein werden. (WS2011)
+#### Die *Kann-Kriterien* aus dem Pflichtenheft werden im Entwurfsmodell *nicht länger berücksichtigt*, da sie im fertigen Softwareprodukt mit hoher Wahrscheinlichkeit nicht realisiert sein werden. (WS2011) (SS2013)
 
 **Falsch.**
 
@@ -81,6 +81,26 @@ SE Fragen
 
 *Gruselige Begründung*
 
+#### Die *Fachlogikschicht* in der *Drei-Schichten-Architektur* darf auf die *darunter liegenden Schichten* zugreifen, jedoch nicht auf die *darüber liegenden*. (SS 2013)
+
+**Richtig.**
+
+> Da die View sich die Information von der Lg Schicht holt und die Schichten so getrennt sind dass es keinen Sinn ergeben würde wenn es andersrum wäre
+
+#### Es findet eine automatische *Wertzuweisung* zwischen den Attributen der Backing Bean und den korrespondierenden Interaktionselemente der Benutzungsoberfläche statt. (SS 2013)
+
+**Richtig.**
+
+> Das Framework kümmert sich darum, allerdings kann man auch die Beans selber konfigurieren mit @Selection ....
+
+![](img/ss2013_43.jpg)
+
+#### Der *Entwurf* ist die Strukturierung des Softwaresystems aus *Anwendersicht*
+
+**Falsch.**
+
+*Zie: aus Entwicklersicht*
+
 #### *Beans* haben stets *die Lebensdauer "request"*. (WS2011)
 
 **Falsch.**
@@ -107,7 +127,7 @@ SE Fragen
 
 > Das sich die Fachlichkeit ändern kann und die OID nicht mit der Fachlogik verbunden werden soll.
 
-#### Ein *fachlich relevantes, eindeutiges* Attribut wie `kundenNr` oder `artikelId` ist als *Schlüsselattribut* (primary key) der Datenbanktabelle einer Entitätsklasse *besonders geeignet*. (WS2010)
+#### Ein *fachlich relevantes, eindeutiges* Attribut wie `kundenNr` oder `artikelId` ist als *Schlüsselattribut* (primary key) der Datenbanktabelle einer Entitätsklasse *besonders geeignet*. (WS2010) (SS2013)
 
 **Falsch.**
 
@@ -125,7 +145,13 @@ SE Fragen
 
 ![](img/ws2011_45.jpg)
 
-#### Das *Model-View-Controller-Konzept (MVC)* bezieht sich auf *alle drei Schichten* der im Entwurfsmodell eingesetzten Drei-Schichten-Architektur. (WS2011)
+#### *Assoziative Klassen* müssen im Entwurfsprozess *eliminiert* werden (SS2013)
+
+![](img/ss2013_47.jpg)
+
+#### Das *Model-View-Controller-Konzept (MVC)* bezieht sich auf *alle drei Schichten* der im Entwurfsmodell eingesetzten Drei-Schichten-Architektur. (WS2011) (SS2013)
+
+**Falsch.** *Zie war so freundlich und hat in SS2013 gesagt dass die Aussage falsch ist*
 
 ![](img/ws2011_46.jpg)
 
