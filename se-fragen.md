@@ -1,19 +1,19 @@
 SE Fragen
 =========
 
-#### Durch die Verwendung des Entwurfsmusters *Strategie* erhöht sich die Anzahl der Objekte.
+#### Durch die Verwendung des Entwurfsmusters *Strategie* erhöht sich die Anzahl der Objekte. (SS2014 NK)
 
 **Richtig.**
 
 > Für jeden Algorithmus wird eine neue Klasse erstellt und darin neue Objekte erzeugt.
 
-#### Verwaltungsmethoden wie `get()` und `set()` sind im *Klassendiagram* eines *Entwurfsmodells* zu modellieren.
+#### Verwaltungsmethoden wie `get()` und `set()` sind im *Klassendiagram* eines *Entwurfsmodells* zu modellieren. (SS2014 NK)
 
 **Richtig.**
 
 > ebenso wie `insert()` und `update()`
 
-#### Die *Kann-Kriterien* aus dem Pflichtenheft werden im Entwurfsmodell *nicht länger berücksichtigt*.
+#### Die *Kann-Kriterien* aus dem Pflichtenheft werden im Entwurfsmodell *nicht länger berücksichtigt*. (SS2014 NK)
 
 **Falsch.**
 
@@ -27,13 +27,13 @@ SE Fragen
 
 > Die Kann Kriterien werden genau wie die Muss-Kriterien im Entwurfsmodell berücksichtigt.
 
-#### Objektorientierte Vererbung lässt sich nicht auf relationale Datenmodelle abbilden.
+#### Objektorientierte Vererbung lässt sich nicht auf relationale Datenmodelle abbilden. (SS2014 NK)
 
 **Falsch.**
 
 > Es gibt 3 Arten: `JOINED`, `TABLE-PER-CLASS` und `SINGLE-TABLE`
 
-#### Ein Web-Server funktioniert nach dem *HTTP-Request-Response-Paradigma*. Das klassische *Model-View-Controller-Konzept* lässt sich hier nicht anwenden.
+#### Ein Web-Server funktioniert nach dem *HTTP-Request-Response-Paradigma*. Das klassische *Model-View-Controller-Konzept* lässt sich hier nicht anwenden. (SS2014 NK)
 
 **Falsch.**
 
@@ -41,7 +41,7 @@ SE Fragen
 
 *Gruselige Begründung*
 
-#### Eine Klasse kann entweder *ganz* oder *gar nicht* persistent sein.
+#### Eine Klasse kann entweder *ganz* oder *gar nicht* persistent sein. (SS2014 NK)
 
 **Falsch.**
 
@@ -53,13 +53,13 @@ SE Fragen
 
 > Attribute die nicht persistent sein sollen mit `@Transient` versehen.
 
-#### In der Programmiersprache *Java* gibt es keine *Mehrfachvererbung*.
+#### In der Programmiersprache *Java* gibt es keine *Mehrfachvererbung*. (SS2014 NK)
 
 **Richtig.**
 
 > eine Klasse kann nur von einer anderen Klasse erben
 
-#### Im Klassendiagramm des Entwurfs sollten möglichst viele *Assoziationen unidirektional* sein
+#### Im Klassendiagramm des Entwurfs sollten möglichst viele *Assoziationen unidirektional* sein (SS2014 NK)
 
 **Richtig.**
 
@@ -103,18 +103,18 @@ SE Fragen
 
 ![](img/ws2011_46.jpg)
 
-#### Im ORM vermeidet man es soweit wie möglich, künstliche (numerische) Primärschlüsssel zu vergeben.
+#### Im ORM vermeidet man es soweit wie möglich, künstliche (numerische) Primärschlüsssel zu vergeben. (WS2009 Probeklausur)
 
-#### Persistente und nicht persistente Entitäten unterscheiden sich durch die Art ihrer Annotationen.
+#### Persistente und nicht persistente Entitäten unterscheiden sich durch die Art ihrer Annotationen. (WS2009 Probeklausur)
 
-#### Die Lebensdauer eines Managed Bean ergibt sich automatisch aus der Lebensdauer der zugehörigen JSP-Seite.
+#### Die Lebensdauer eines Managed Bean ergibt sich automatisch aus der Lebensdauer der zugehörigen JSP-Seite. (WS2009 Probeklausur)
 
-#### Durch eine Dateiprüfsumme kann Manipulation im Abnahmetest verhindert werden.
+#### Durch eine Dateiprüfsumme kann Manipulation im Abnahmetest verhindert werden. (WS2009 Probeklausur)
 
-#### Unter einer Persistence Unit versteht man die Verwaltung des Datenbankzugangs.
+#### Unter einer Persistence Unit versteht man die Verwaltung des Datenbankzugangs. (WS2009 Probeklausur)
 
-#### Der Übergang vom Analysemodell zum Entwurfsmodell kann zielsprachenunabhängig erfolgen.
+#### Der Übergang vom Analysemodell zum Entwurfsmodell kann zielsprachenunabhängig erfolgen. (WS2009 Probeklausur)
 
-#### Dependency Injection ist ein Muster zur losen Kopplung von Komponenten.
+#### Dependency Injection ist ein Muster zur losen Kopplung von Komponenten. (WS2009 Probeklausur)
 
-#### In JSF kann die Navigationsstruktur zwischen Webseiten spezifiziert werden.
+#### In JSF kann die Navigationsstruktur zwischen Webseiten spezifiziert werden. (WS2009 Probeklausur)
