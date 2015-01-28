@@ -56,3 +56,19 @@ SE Fragen
 *Zie: gerade so...*
 
 *Gruselige Begründung*
+
+#### Im ORM vermeidet man es soweit wie möglich, künstliche (numerische) Primärschlüsssel zu vergeben.
+
+#### Persistente und nicht persistente Entitäten unterscheiden sich durch die Art ihrer Annotationen.
+
+#### Die Lebensdauer eines Managed Bean ergibt sich automatisch aus der Lebensdauer der zugehörigen JSP-Seite.
+
+#### Durch eine Dateiprüfsumme kann Manipulation im Abnahmetest verhindert werden.
+
+#### Unter einer Persistence Unit versteht man die Verwaltung des Datenbankzugangs.
+
+#### Der Übergang vom Analysemodell zum Entwurfsmodell kann zielsprachenunabhängig erfolgen.
+
+#### Dependency Injection ist ein Muster zur losen Kopplung von Komponenten.
+
+#### In JSF kann die Navigationsstruktur zwischen Webseiten spezifiziert werden.
